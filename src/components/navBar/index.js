@@ -93,7 +93,7 @@ const StyledDiv = styled.div`
 
 const LogoContainer = styled.div`
   position: absolute;
-  right: 90.7%;
+  right: 88.7%;
   margin-top: 205px;
   transform: translateX(-50%);
 `;
