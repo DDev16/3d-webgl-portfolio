@@ -2,11 +2,11 @@ import React from 'react';
 import { useGLTF } from '@react-three/drei';
 
 const UfoGuy = (props) => {
-  const { scene } = useGLTF('/UfoGuy.glb', true); // Adjusted path
+  const { scene } = useGLTF(process.env.PUBLIC_URL + '/UfoGuy.glb', true);
   return <primitive object={scene} {...props} />;
 };
 
+useGLTF.preload(process.env.PUBLIC_URL + '/UfoGuy.glb');
 
-useGLTF.preload('/UfoGuy.glb'); // Preload adjusted path
 
 export default UfoGuy;
