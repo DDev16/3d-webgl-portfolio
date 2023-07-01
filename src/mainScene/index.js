@@ -21,7 +21,7 @@ import Rocket from '../3d-components/rocket/Rocket.js'; // Import the Rocket com
 import Moon from '../3d-components/moon/Moon.js'
 import Earth from '../3d-components/earth/Earth.js'
 import Sun from '../3d-components/sun/Sun.js'
-import UfoGuy from '../3d-components/ufoguy/UfoGuy';
+// import UfoGuy from '../3d-components/ufoguy/UfoGuy';
 import Flag from '../3d-components/moon/Flag';
 import SkyBox from '../3d-components/cube/components/skybox/Skybox';
 import Sky from '../stars.jpg'
@@ -110,7 +110,7 @@ function MainScene () {
             <Float scale={currentScale}>
               <Logo />
               <Rocket position={[125, 25, 250]} scale={[.5, .5, .5]} rotation={[Math.PI / 51, 550, .3]} />
-              <UfoGuy position={[245, 25, -330]} scale={[.1, .1, .1]} rotation={[Math.PI / 51, 50, .3]} />
+              {/* <UfoGuy position={[245, 25, -330]} scale={[.1, .1, .1]} rotation={[Math.PI / 51, 50, .3]} /> */}
               <Cloud position={[245 , 35, 220]} scale={[5, 5, 5]} />
 
               <Hologram />
