@@ -6,6 +6,7 @@ const UfoGuy = (props) => {
   return <primitive object={scene} {...props} />;
 };
 
+
 useGLTF.preload('/UfoGuy.glb'); // Preload adjusted path
 
 export default UfoGuy;
